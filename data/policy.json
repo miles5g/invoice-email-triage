@@ -1,0 +1,60 @@
+{
+  "name": "demo-ap-policy",
+  "auto_approve_max_usd": 2500.0,
+  "require_po_above_usd": 500.0,
+  "require_invoice_number": true,
+  "require_amount": true,
+  "escalate_payment_instruction_change": true,
+  "escalate_unknown_vendor": true,
+  "amount_anomaly_multiplier": 2.5,
+  "known_vendors": [
+    {
+      "id": "apex-office",
+      "name": "Apex Office Supplies LLC",
+      "domains": ["apex-office.example"],
+      "typical_amount_usd": 1100.0
+    },
+    {
+      "id": "lumen-print",
+      "name": "Lumen Print Co.",
+      "domains": ["lumen-print.example"],
+      "typical_amount_usd": 200.0
+    },
+    {
+      "id": "cedar-pine",
+      "name": "Cedar & Pine Facilities",
+      "domains": ["cedarpine.example"],
+      "typical_amount_usd": 3500.0
+    },
+    {
+      "id": "brightline",
+      "name": "Brightline Telecom",
+      "domains": ["brightline-telecom.example"],
+      "typical_amount_usd": 1600.0
+    },
+    {
+      "id": "orbit-cloud",
+      "name": "Orbit Cloud Hosting",
+      "domains": ["orbit-cloud.example"],
+      "typical_amount_usd": 90.0
+    },
+    {
+      "id": "willow-street",
+      "name": "Willow Street Catering",
+      "domains": ["willow-street.example"],
+      "typical_amount_usd": 350.0
+    },
+    {
+      "id": "north-harbor",
+      "name": "North Harbor Janitorial",
+      "domains": ["north-harbor.example"],
+      "typical_amount_usd": 1800.0
+    },
+    {
+      "id": "pixel-type",
+      "name": "Pixel & Type Studio",
+      "domains": ["pixeltype.example"],
+      "typical_amount_usd": 750.0
+    }
+  ]
+}

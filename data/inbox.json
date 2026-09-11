@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "synthetic": true,
+    "disclaimer": "All senders, clients, amounts, and invoice numbers are invented for this portfolio demo. Nothing here is sourced from a real mailbox, firm, or production system.",
+    "generated_for": "invoice-email-triage demo"
+  },
+  "messages": [
+    {
+      "id": "msg-001",
+      "received_at": "2026-09-08T09:14:00Z",
+      "from_name": "Apex Office Supplies Billing",
+      "from_email": "billing@apex-office.example",
+      "subject": "Invoice INV-10442 — September office restock",
+      "body": "Hi Accounts Payable,\n\nPlease find invoice INV-10442 for the September office restock.\n\nInvoice number: INV-10442\nAmount due: $1,240.00\nPurchase order: PO-7781\nDue date: 2026-10-08\n\nRemit to the bank on file. Packing slip is attached in this demo as text only.\n\nThank you,\nBilling team\nApex Office Supplies LLC\n"
+    },
+    {
+      "id": "msg-002",
+      "received_at": "2026-09-08T10:02:00Z",
+      "from_name": "Orbit Cloud Receipts",
+      "from_email": "receipts@orbit-cloud.example",
+      "subject": "Your Orbit Cloud Hosting receipt ORB-99210",
+      "body": "Thanks for staying with Orbit Cloud Hosting.\n\nInvoice number: ORB-99210\nAmount: $87.50\nDue date: 2026-09-22\n\nThis is the monthly workspace plan. No purchase order is required under $500 in the demo policy.\n\n— Orbit Cloud Hosting (synthetic)\n"
+    },
+    {
+      "id": "msg-003",
+      "received_at": "2026-09-08T11:40:00Z",
+      "from_name": "Brightline Telecom Billing",
+      "from_email": "billing@brightline-telecom.example",
+      "subject": "Past-due reminder — please remit payment",
+      "body": "Hello,\n\nThis is a reminder that $1,675.25 is outstanding on your Brightline Telecom account. Please pay at your earliest convenience so service is not interrupted.\n\nWe did not include an invoice number or purchase order in this note.\n\nThanks,\nBrightline Telecom Billing\n"
+    },
+    {
+      "id": "msg-004",
+      "received_at": "2026-09-08T13:18:00Z",
+      "from_name": "Cedar & Pine Facilities",
+      "from_email": "ap@cedarpine.example",
+      "subject": "Invoice INV-CP-4401 for Q3 site maintenance",
+      "body": "Accounts Payable,\n\nInvoice number: INV-CP-4401\nAmount due: $4,812.33\nPurchase order: PO-3309\nDue date: 2026-10-15\n\nCovers scheduled HVAC and grounds work for the demo campus. Amount is a normal-sized bill for this vendor but sits above the auto-approve ceiling.\n\n— Cedar & Pine Facilities\n"
+    },
+    {
+      "id": "msg-005",
+      "received_at": "2026-09-08T15:55:00Z",
+      "from_name": "QuickPay Settlement Desk",
+      "from_email": "payments@quickpay-settle.example",
+      "subject": "URGENT: Updated banking details for invoice INV-10442",
+      "body": "Hello,\n\nWe have updated banking details on file. Please send payment for invoice INV-10442 to the new routing and account numbers below instead of the vendor on file.\n\nNew routing: 999999999\nNew account number: 9988776611\n\nProcess today to avoid late fees.\n\n— Treasury Desk, QuickPay Settlement (not a known vendor)\n"
+    },
+    {
+      "id": "msg-006",
+      "received_at": "2026-09-09T08:05:00Z",
+      "from_name": "Apex Office Supplies Billing",
+      "from_email": "billing@apex-office.example",
+      "subject": "Resending invoice INV-10442",
+      "body": "Hi again,\n\nResending in case the first copy was missed.\n\nInvoice number: INV-10442\nAmount due: $1,240.00\nPurchase order: PO-7781\nDue date: 2026-10-08\n\nPlease do not double-pay.\n\n— Apex Office Supplies LLC\n"
+    },
+    {
+      "id": "msg-007",
+      "received_at": "2026-09-09T09:31:00Z",
+      "from_name": "Willow Street Catering",
+      "from_email": "accounts@willow-street.example",
+      "subject": "Catering invoice WS-1882 from Thursday lunch",
+      "body": "Hello AP,\n\nPlease process the attached catering invoice for last Thursday's working lunch.\n\nInvoice number: WS-1882\nPurchase order: PO-5502\nDue date: 2026-09-30\n\nThe total was left off this email — we will send a breakdown if you need it.\n\n— Willow Street Catering\n"
+    },
+    {
+      "id": "msg-008",
+      "received_at": "2026-09-09T12:12:00Z",
+      "from_name": "Pixel & Type Studio",
+      "from_email": "invoices@pixeltype.example",
+      "subject": "Invoice PT-77004 — brand system (revised)",
+      "body": "Hi,\n\nInvoice number: PT-77004\nAmount due: $9,500.00\nPurchase order: PO-2100\nDue date: 2026-10-20\n\nThis is a one-off brand-system invoice. Typical monthly design retainers from this vendor are much smaller.\n\n— Pixel & Type Studio\n"
+    },
+    {
+      "id": "msg-009",
+      "received_at": "2026-09-09T14:44:00Z",
+      "from_name": "Lumen Print Billing",
+      "from_email": "invoices@lumen-print.example",
+      "subject": "Invoice LP-3088 — business cards and letterhead",
+      "body": "Hello,\n\nInvoice number: LP-3088\nAmount: $219.00\nDue date: 2026-10-01\n\nShort-run print job. Under the demo PO threshold.\n\n— Lumen Print Co.\n"
+    },
+    {
+      "id": "msg-010",
+      "received_at": "2026-09-10T08:20:00Z",
+      "from_name": "North Harbor Janitorial",
+      "from_email": "billing@north-harbor.example",
+      "subject": "Invoice NH-6610 — September service",
+      "body": "Accounts Payable,\n\nInvoice number: NH-6610\nAmount due: $1,890.00\nPurchase order: PO-9012\nDue date: 2026-10-10\n\nMonthly cleaning for the demo suite. Same vendor and similar amount as usual.\n\n— North Harbor Janitorial\n"
+    }
+  ]
+}

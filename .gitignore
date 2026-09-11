@@ -1,0 +1,23 @@
+# Local environments
+.venv/
+venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Generated demo output (recreated by `python -m invoice_triage`)
+/output/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
